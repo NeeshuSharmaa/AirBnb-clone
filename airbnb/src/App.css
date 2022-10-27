@@ -49,10 +49,13 @@ body{
   font-weight: 300;
   font-size: 16px;
   margin-left:36px;
+  margin-top:0;
+  margin-bottom: 40px;
 }
 .content-sec h1{
   width: 347px;
   margin-left: 36px;
+  margin-bottom: 10px;
 }
 .card{
   display:flex;
@@ -77,6 +80,7 @@ body{
   width: 14px;
   height: 14px;
   border-radius: 0.5px;
+  margin-right:2px;
 }
 .rating{
   font-style: normal;
@@ -95,6 +99,7 @@ body{
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
+  color: #918E9B;
 
 }
 .title{

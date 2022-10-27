@@ -13,7 +13,7 @@ export default function Card(props){
             </span>
             <span className="title">{props.title}</span>
             <div>
-            <span className="price">From {props.price}</span> <span className="normal-span-text">/person</span>
+            <span className="price">From {props.price}</span> <span className="normal-span-text">/ person</span>
             </div>
             
         </div>
