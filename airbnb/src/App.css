@@ -3,6 +3,12 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+body{
+  max-width: 550px;
+}
+.normal-span-text{
+  font-size:12px;
+}
 .navbar{
   display:flex;
   /* position: absolute; */
@@ -21,14 +27,15 @@
   left: 30px;
   top: 22px;
 }
+.hero-sec{
+  margin:96px;
+  display:flex;
+  justify-content: center;
+}
 
 .hero-img{
-  position: absolute;
   width: 395.91px;
   height: 232px;
-  left: 77px;
-  top: 96px;
-
 }
 
 .content-sec{
@@ -37,22 +44,72 @@
 }
 
 .content-sec p{
-  position: absolute;
   width: 320px;
-  height: 56px;
-  left: 36px;
-  top: 416px;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 110%;
+  margin-left:36px;
 }
 .content-sec h1{
-  position: absolute;
   width: 347px;
-  height: 40px;
-  left: 36px;
-  top: 360px;
+  margin-left: 36px;
+}
+.card{
+  display:flex;
+  flex-direction:column;
+  width: 196px;
+}
+.card-container{
+  display:flex;
+  flex-direction:row;
+  padding-left:36px;
+}
+.card-image{
+  width:176px;
+  height:235px;
+  border-radius: 9px;
+  margin-right: 20px;
+}
+.ratings-sec{
+  max-width: 156px;
+}
+.star-img{
+  width: 14px;
+  height: 14px;
+  border-radius: 0.5px;
+}
+.rating{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #222222;
+
+}
+.count{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #918E9B;
+}
+.country{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+
+}
+.title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #222222;
+  max-width:176px;
+
+}
+.price{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #222222;
 }
 
 
