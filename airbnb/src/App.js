@@ -47,13 +47,17 @@ export default function App() {
     return (
             <Card
               key={item.id}//each child in a list should have a unique key prop
-              img={item.coverImg}
-              title={item.title}
-              rating={item.stats.rating}
-              count={item.stats.reviewCount}
-              location={item.location}
-              price={item.price}
-              openSpots={item.openSpots}
+              // img={item.coverImg}
+              // title={item.title}
+              // rating={item.stats.rating}
+              // count={item.stats.reviewCount}
+              // location={item.location}
+              // price={item.price}
+              // openSpots={item.openSpots}
+              
+              item={item}   //passing OBJECT AS PROPS
+              //needn't pass props in above way, passing the whole array item so that 
+              // whatever props we need we can directly access in card.js instead of writing down all the props here
             />
            )  
 
