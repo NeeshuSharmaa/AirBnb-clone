@@ -1,6 +1,7 @@
 import React from "react";
 
 
+// via props 
 export default function Card(props){
     return(
         <div className="card">
@@ -19,18 +20,3 @@ export default function Card(props){
         </div>
     )
 }
-
-// export default function Card(){
-//     return(
-//         <div className="card">
-//             <img className="card-image" src="" alt="" />
-//             <span className="ratings-sec">
-//                 <img className="star-img" src="" alt="" />
-//                 <span className="rating"></span>
-//                 <span className="country"></span>
-//             </span>
-//             <p>description</p>
-//             <span className="price">$    /person</span>
-//         </div>
-//     )
-// }
