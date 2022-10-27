@@ -48,7 +48,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Online",
+        location: "Thailand",
         openSpots: 27,
     }
 ]

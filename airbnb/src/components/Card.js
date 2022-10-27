@@ -3,7 +3,7 @@ import React from "react";
 
 // via props 
 export default function Card(props){
-
+    // conditional rendering 
     let badgeText
     if(props.item.openSpots=== 0){
         badgeText="SOLD OUT"
@@ -11,7 +11,7 @@ export default function Card(props){
     else if(props.item.location ==="Online"){
         badgeText="ONLINE"
     }
-
+    //_______________________
 
     return(
         <div className="card">
