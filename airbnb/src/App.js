@@ -46,11 +46,14 @@ export default function App() {
   const cards=data.map(item=>{
     return (
             <Card
+              key={item.id}//each child in a list should have a unique key prop
               img={item.coverImg}
               title={item.title}
               rating={item.stats.rating}
               count={item.stats.reviewCount}
+              location={item.location}
               price={item.price}
+              openSpots={item.openSpots}
             />
            )  
 

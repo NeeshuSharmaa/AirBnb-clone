@@ -28,7 +28,7 @@ body{
   top: 22px;
 }
 .hero-sec{
-  margin:96px;
+  margin:20px;
   display:flex;
   justify-content: center;
 }
@@ -60,12 +60,16 @@ body{
 .card{
   display:flex;
   flex-direction:column;
-  width: 196px;
+  width: 195px;
+  position:relative; 
+  /* when card-badge absolute, card->relative */
 }
 .card-container{
   display:flex;
   flex-direction:row;
   padding-left:36px;
+  overflow-x:auto;
+  flex-wrap:nowrap;
 }
 .card-image{
   width:176px;
@@ -115,6 +119,16 @@ body{
   font-weight: 600;
   font-size: 12px;
   color: #222222;
+}
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+  background-color: white;
 }
 
 
